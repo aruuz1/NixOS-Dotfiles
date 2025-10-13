@@ -1,0 +1,81 @@
+* {
+    border: none;
+    border-radius: 13px;
+    font-family: "Dejavu", mono;
+    font-size: 15px;
+}
+
+window#waybar {
+    background: transparent;
+    color: #ebdbb3;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background: #2b628a;
+    border-radius: 13px;
+    padding: 1 8px;
+    margin: 5px 4px 0 4px;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: #ebdbb3;
+    border-radius: 13px;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+    background: #1d3f57;
+    color: #636262;
+    min-width: 34px;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button:hover {
+    color: #807e7e;
+}
+
+#custom-appmenuicon {
+    font-size: 23px;
+    color: #d79922;
+    padding: 1 20 1 0px;
+}
+
+#custom-spotify {
+    color: #d7c7a4;
+    padding: 1 12px;
+}
+
+#custom-spotify:hover {
+    color: #cc242d;
+    transition: all 0.3s ease-in-out;
+}
+
+#pulseaudio {
+    padding: 1 12px;
+    color: #ebdbb3;
+}
+
+#pulseaudio.muted {
+    color: #cc242d;
+}
+
+#clock {
+    padding: 1 12px;
+    font-weight: bold;
+}
+
+#tray {
+    padding: 1 8px;
+}
+
+#keyboard-state {
+    padding: 1 8px;
+}
+
+#keyboard-state label.locked {
+    color: #cc242d;
+}
