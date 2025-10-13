@@ -2,8 +2,8 @@
 
 {
   home = {
-    username = "aruuz";
-    homeDirectory = "/home/aruuz";
+    username = "YOURUSERNAME";
+    homeDirectory = "/home/YOURDIRECTORY";
     stateVersion = "25.05";
   };
   nixpkgs = {
