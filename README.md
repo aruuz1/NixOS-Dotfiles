@@ -4,7 +4,7 @@ Nova theme for NixOS with Hyprland.
 
 ## 🖼️ Screenshots
 
-![Showcase](./assets/showcase.png)
+![Showcase](./asset/showcase.png)
 
 
 
