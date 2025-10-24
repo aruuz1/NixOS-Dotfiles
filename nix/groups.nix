@@ -1,10 +1,10 @@
 { config, pkgs,  ... }:
 
 {
-  users.users.YOURUSERNAME = {
+  users.users.aruuz = {
     isNormalUser = true;
     description = "aruuz";
-    extraGroups = [ "networkmanager" "wheel" "audio" "pipewire" ];
+    extraGroups = [ "networkmanager" "wheel" "audio" "pipewire" "gamemode" ];
     packages = with pkgs; [];
   };
 }

@@ -20,7 +20,7 @@ in
       };
 
       "*" = {
-        "bg-col" = mkLiteral "#2b628a";
+        "bg-col" = mkLiteral "#6a7d89";
         "bg-col-light" = mkLiteral "#313244";
         "border-col" = mkLiteral "#f2cdcd91";
         "selected-col" = mkLiteral "#a89984";
@@ -40,7 +40,7 @@ in
 
       window = {
         height = mkLiteral "400px";
-        width = mkLiteral "800px";
+        width = mkLiteral "600px";
         border = mkLiteral "2px";
         border-color = mkLiteral "@border-col";
         border-radius = mkLiteral "10px";

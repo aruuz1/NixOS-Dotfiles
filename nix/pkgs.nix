@@ -3,18 +3,30 @@
   nixpkgs.config.allowUnfree = true;
   services = {
     flatpak.enable = true;
+  
   };
 
   programs = {
     firefox.enable = true;
-     nekoray = {
-       enable = true;
-       tunMode.enable = true;
-    };
+    firejail.enable = true;
+    steam.enable = true;
+      nekoray = {
+         enable = true;
+         tunMode.enable = true;
+      };
   };
 
   environment.systemPackages = with pkgs; [
-    vim 
+    vim
+    wl-clipboard
+    simplex-chat-desktop
+    element-desktop
+    chromium
+    cowsay
+    obs-studio
+    steam
+    pstree
+    gamemode
     home-manager
     kitty
     rofi
@@ -31,9 +43,11 @@
     cava
     cmatrix
     pipes
+    mangohud
     waybar
     yazi
     waypaper
+    fluffychat
     swww
     bibata-cursors
     ayugram-desktop
@@ -54,6 +68,8 @@
     prismlauncher
     nemo
     flatpak
+    firejail
+    microfetch
   ];
 
   fonts.packages = with pkgs; [

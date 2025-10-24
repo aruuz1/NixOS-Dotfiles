@@ -12,6 +12,8 @@
       ./nix/pipewire.nix
       ./nix/pkgs.nix
       ./nix/bootloader.nix
+      ./nix/gamemode.nix
+      ./nix/systemd.nix
     ];
 
   system.stateVersion = "25.05";

@@ -9,6 +9,8 @@
     ./zsh/default.nix
     ./eza.nix
     ./dunst.nix
+    ./spicetify.nix
+    ./nixvim/nixvim.nix
   ];
 
 }

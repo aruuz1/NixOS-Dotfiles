@@ -23,5 +23,10 @@
      name = "Bibata-Modern-Classic";
      size = 24;
     };
+    iconTheme = {
+      enable = true;
+      package = pkgs.tela-icon-theme;
+      dark = "Tela-dark";
+    };
   };
 }
