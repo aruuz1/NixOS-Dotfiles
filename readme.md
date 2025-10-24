@@ -23,7 +23,7 @@ Gruvbox theme for NixOS with Hyprland.
 ```
 nix-shell -p git
 git clone https://github.com/aruuz1/NixOS-Dotfiles --depth=1
-cd ./NixOS-Dotfiles/hardware
+cd ./NixOS-Dotfiles
 rm hardware-configuration.nix
 cp /etc/nixos/hardware-configuration.nix .
 sudo nixos-rebuild switch --flake .
