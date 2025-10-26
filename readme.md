@@ -32,9 +32,9 @@ reboot
 ```
 
 > **⚠️ Warning**
-> This configuration is specifically designed for username `gemakfy`.
+> This configuration is specifically designed for username `aruuz`.
 > If your username is different, the config will not work without modifications.
-> replace all occurrences of `gemakfy` with your username.
+> replace all occurrences of `aruuz` with your username.
 
 ## 🥀references
 config base: https://github.com/gemakfy/NixOS-dotfiles
