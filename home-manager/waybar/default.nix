@@ -27,6 +27,7 @@
         ];
 
         modules-right = [
+          "custom/spotify"
           "clock"
         ];
 
@@ -63,20 +64,16 @@
           icon-size = 21;
           spacing = 10;
         };
-
-       pulseaudio = {
-          format = "{icon} {volume}%";
-          format-bluetooth = "{volume}%  {icon} {format_source}";
-          format-icons = {
-            headphone = " ";
-            hands-free = " ";
-            headset = " ";
-            phone = " ";
-            portable = " ";
-            car = " ";
-            default = [" " " " " "];
-          };
-          on-click = "kitty alsamixer";
+        "custom/spotify" = {
+          format = "{icon}";
+          exec = "playerctl metadata";
+          on-click = "playerctl play-pause";
+          on-click-right = "playerctl next";
+          escape = true;
+          max-length = 40;
+          format-icons = [""];
+          interval = 1;
+          tooltip = true;
         };
       }
     ];

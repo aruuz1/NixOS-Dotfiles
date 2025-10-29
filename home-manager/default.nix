@@ -11,6 +11,7 @@
     ./dunst.nix
     ./spicetify.nix
     ./nixvim/nixvim.nix
+    ./git.nix
   ];
 
 }

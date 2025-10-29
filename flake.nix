@@ -40,7 +40,7 @@
       modules = [
       ./home.nix
       stylix.homeModules.stylix
-      spicetify.homeManagerModules.spicetify 
+      spicetify.homeManagerModules.spicetify
       inputs.nixvim.homeManagerModules.nixvim
       ];
     };

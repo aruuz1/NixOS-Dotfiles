@@ -20,13 +20,20 @@
     vim
     wl-clipboard
     simplex-chat-desktop
+    python313
     element-desktop
     chromium
     cowsay
+    wine
     obs-studio
     steam
+    qbittorrent
     pstree
+    unrar
+    playerctl
     gamemode
+    sl
+    tty-clock
     home-manager
     kitty
     rofi

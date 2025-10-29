@@ -45,12 +45,12 @@ window#waybar {
 }
 
 #custom-spotify {
-    color: #d7c7a4;
+    color: #ebdbb3;
     padding: 1 12px;
 }
 
 #custom-spotify:hover {
-    color: #cc242d;
+    color: #636262;
     transition: all 0.3s ease-in-out;
 }
 

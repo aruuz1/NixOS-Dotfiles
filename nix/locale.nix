@@ -8,7 +8,6 @@
   };
   networking = {
     hostName = "nixos";
-    firewall.enable = false;
   };
 
   services.xserver.xkb = {
