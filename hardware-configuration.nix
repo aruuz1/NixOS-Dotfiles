@@ -24,6 +24,11 @@
       options = [ "fmask=0022" "dmask=0022" ];
     };
 
+  fileSystems."/home/aruuz/DISK" =
+    { device = "/dev/disk/by-uuid/b3f795c8-2527-44ab-aa72-152d6cbfa2e5";
+      fsType = "ext4";
+    };
+
   swapDevices =
     [ { device = "/dev/disk/by-uuid/e87ca20e-4004-442d-bf4f-7aeb4e6ee14d"; }
     ];
